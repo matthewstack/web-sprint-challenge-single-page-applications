@@ -33,8 +33,11 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question.
 
 1. In 1-2 sentences, explain what React's `useRouteMatch` hook is used for.
+   It allows you to render components based on the path.
 1. How would you explain form validation to someone who has never programmed before?
+   It lets you check data you're getting in a form to make sure it's correct, and it'll notify the user if there is an error.
 1. In 1-2 sentences, define end to end testing.
+   End to end testing replicates how a real life user would use the application and tests for errors.
 
 ## Instructions
 
@@ -61,6 +64,7 @@ Your finished project must include all of the following requirements:
 - [ ] An Add to Order button that has an id of "order-button" and that submits form and returns a database record of name, size, toppings and special instructions
 
 Data should look something like
+
 ```
 {
     name: string,
@@ -70,6 +74,7 @@ Data should look something like
     special: string,
 }
 ```
+
 where there is a key for name, size and special and they are strings
 and
 there is a key for each of the toppings and they are booleans
@@ -111,4 +116,5 @@ One of your goals is to return a database record of the order - for this you'll 
 Follow these steps for completing your project.
 
 Set up your fork on Github to codegrade following the instructions [here](https://lambdaschool.instructure.com/courses/1590/assignments/49789), pushing commits to your main branch.
+
 - [ ] Your code will be reviewed over the next few days. Read [these instructions](https://www.notion.so/How-to-View-Feedback-in-CodeGrade-c5147cee220c4044a25de28bcb6bb54a) to learn how to view feedback in CodeGrade.
